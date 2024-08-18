@@ -1,0 +1,223 @@
+{
+  "products": [
+    {
+      "id": "1234567",
+      "title": "Apple iPhone 14 Pro",
+      "description": "The latest iPhone with A16 Bionic chip and ProMotion technology.",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": 999.99,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "comments": "Amazing camera quality and performance.",
+      "images": "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrGX9LFYqC9tWQ9Ak47KaBiTNhB5p4EMQjA&s"
+    },
+    {
+      "id": "2345678",
+      "title": "Samsung Galaxy S23 Ultra",
+      "description": "Samsung’s flagship smartphone with an advanced camera system and powerful performance.",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": 1199.99,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "comments": "A powerhouse of a phone with a stunning display.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOW1cwYwD24lOIaa_s0iB_LIAjOvMU2Al1kQ&s"
+      ]
+    },
+    {
+      "id": "3456789",
+      "title": "Sony WH-1000XM5",
+      "description": "Top-of-the-line noise-canceling headphones with superior sound quality.",
+      "brand": "Sony",
+      "category": "Headphones",
+      "price": 349.99,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "comments": "Unmatched noise cancellation and clarity.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYNb9NGUfVc4PuZf_RMwHzP0uUoVf1CW3Tzg&s"
+      ]
+    },
+    {
+      "id": "4567890",
+      "title": "Apple MacBook Pro 16-inch",
+      "description": "The ultimate laptop for professionals with the M2 Max chip and stunning Retina display.",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": 2499.99,
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "comments": "Incredible performance for creative work.",
+      "images": [
+        "https://allgood.uz/storage/products/November2023/HqaB7Zr3yQ8abW629uig.webp"
+      ]
+    },
+    {
+      "id": "5678901",
+      "title": "Dell XPS 13",
+      "description": "A premium ultrabook with a stunning 4K display and powerful performance.",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": 1299.99,
+      "discountPercentage": 12,
+      "rating": 4.6,
+      "comments": "Sleek design and excellent performance.",
+      "images": [
+        "https://m.media-amazon.com/images/I/51fAouuv1KL._AC_SL1500_.jpg"
+      ]
+    },
+    {
+      "id": "6789012",
+      "title": "Apple Watch Series 8",
+      "description": "Advanced health and fitness tracking with a sleek design and powerful features.",
+      "brand": "Apple",
+      "category": "Smartwatches",
+      "price": 399.99,
+      "discountPercentage": 7,
+      "rating": 4.7,
+      "comments": "Best smartwatch with excellent health features.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTEDThKFShzOB34iNgXmSY3yqDymF9bhGqSw&s"
+      ]
+    },
+    {
+      "id": "7890123",
+      "title": "Sony PlayStation 5",
+      "description": "The latest gaming console with immersive graphics and lightning-fast performance.",
+      "brand": "Sony",
+      "category": "Gaming Consoles",
+      "price": 499.99,
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "comments": "A must-have for any serious gamer.",
+      "images": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+    },
+    {
+      "id": "8901234",
+      "title": "Bose QuietComfort 45",
+      "description": "Wireless noise-canceling headphones with superior sound and comfort.",
+      "brand": "Bose",
+      "category": "Headphones",
+      "price": 299.99,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "comments": "Comfortable fit with excellent noise cancellation.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmZSeui3jmYLv2bpsQPAO_OuD038YhUWzBvA&s"
+      ]
+    },
+    {
+      "id": "9012345",
+      "title": "Amazon Echo Dot (5th Gen)",
+      "description": "Smart speaker with Alexa and improved sound quality.",
+      "brand": "Amazon",
+      "category": "Smart Home",
+      "price": 49.99,
+      "discountPercentage": 20,
+      "rating": 4.5,
+      "comments": "Great sound for its size and a useful assistant.",
+      "images": [
+        "https://m.media-amazon.com/images/I/41b4Qsbqk9L._AC_SY1000_.jpg"
+      ]
+    },
+    {
+      "id": "0123456",
+      "title": "GoPro HERO11 Black",
+      "description": "Rugged 4K action camera with HyperSmooth stabilization and live streaming.",
+      "brand": "GoPro",
+      "category": "Cameras",
+      "price": 399.99,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "comments": "Perfect for capturing adventures in high quality.",
+      "images": [
+        "https://olcha.uz/image/original/products/oz7UJniMx4Fk2dzkAU0zzOIK4dLtCbPMmKoUBSOzPil2ofO4I65fwrPU8Flj.jpg"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "01234561",
+      "firstName": "Jane",
+      "lastName": "Smithfd",
+      "email": "janesmith1@gmail.com",
+      "username": "janesmith1ewfd",
+      "password": "jane1234",
+      "phone": "+998901234561"
+    },
+    {
+      "id": "01234562",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "email": "michaeljohnson2@gmail.com",
+      "username": "michaeljohnson2",
+      "password": "michael1234",
+      "phone": "+998901234562"
+    },
+    {
+      "id": "01234563",
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "email": "emilywilliams3@gmail.com",
+      "username": "emilywilliams3",
+      "password": "emily1234",
+      "phone": "+998901234563"
+    },
+    {
+      "id": "01234564",
+      "firstName": "Daniel",
+      "lastName": "Brown",
+      "email": "danielbrown4@gmail.com",
+      "username": "danielbrown4",
+      "password": "daniel1234",
+      "phone": "+998901234564"
+    },
+    {
+      "id": "01234565",
+      "firstName": "Sophia",
+      "lastName": "Jones",
+      "email": "sophiajones5@gmail.com",
+      "username": "sophiajones5",
+      "password": "sophia1234",
+      "phone": "+998901234565"
+    },
+    {
+      "id": "01234566",
+      "firstName": "James",
+      "lastName": "Garcia",
+      "email": "jamesgarcia6@gmail.com",
+      "username": "jamesgarcia6",
+      "password": "james1234",
+      "phone": "+998901234566"
+    },
+    {
+      "id": "01234567",
+      "firstName": "Ava",
+      "lastName": "Miller",
+      "email": "avamiller7@gmail.com",
+      "username": "avamiller7",
+      "password": "ava1234",
+      "phone": "+998901234567"
+    },
+    {
+      "id": "01234568",
+      "firstName": "William",
+      "lastName": "Davis",
+      "email": "williamdavis8@gmail.com",
+      "username": "williamdavis8",
+      "password": "william1234",
+      "phone": "+998901234568"
+    },
+    {
+      "id": "01234569",
+      "firstName": "Olivia",
+      "lastName": "Martinez",
+      "email": "oliviamartinez9@gmail.com",
+      "username": "oliviamartinez9",
+      "password": "olivia1234",
+      "phone": "+998901234569"
+    }
+  ]
+}
