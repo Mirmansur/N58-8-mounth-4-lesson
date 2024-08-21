@@ -29,11 +29,12 @@ const Users: React.FC = () => {
   const [editUser, setEditUser] = useState<User | null>(null);
   const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
   const [modalType, setModalType] = useState<"create" | "edit">("create");
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get<User[]>("http://localhost:4000/users");
+        const response = await axios.get<User[]>("http://localhost:3000/users");
         setUsers(response.data);
         toast.success("Users loaded successfully!");
       } catch (err) {
@@ -50,7 +51,7 @@ const Users: React.FC = () => {
   const handleCreate = async () => {
     try {
       const response = await axios.post<User>(
-        "http://localhost:4000/users",
+        "http://localhost:3000/users",
         newUser
       );
       setUsers([...users, response.data]);
@@ -66,7 +67,7 @@ const Users: React.FC = () => {
     if (!editUser) return;
     try {
       const response = await axios.put<User>(
-        `http://localhost:4000/users/${editUser.id}`,
+        `http://localhost:3000/users/${editUser.id}`,
         editUser
       );
       setUsers(
@@ -82,7 +83,7 @@ const Users: React.FC = () => {
 
   const handleDelete = async (id: number) => {
     try {
-      await axios.delete(`http://localhost:4000/users/${id}`);
+      await axios.delete(`http://localhost:3000/users/${id}`);
       setUsers(users.filter((user) => user.id !== id));
       toast.success("User deleted successfully!");
     } catch (err) {
@@ -113,6 +114,13 @@ const Users: React.FC = () => {
     });
     setEditUser(null);
   };
+
+  // Filtering users based on search term
+  const filteredUsers = users.filter((user) =>
+    [user.firstName, user.lastName, user.email, user.username, user.phone].some(
+      (field) => field.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  );
 
   const columns = [
     { title: "ID", dataIndex: "id", key: "id" },
@@ -158,13 +166,15 @@ const Users: React.FC = () => {
       <Input
         type="text"
         placeholder="Search..."
-        className="rounded-[12px] rounded-gray-600 mb-4"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="rounded-[12px] mb-4"
       />
       <div className="overflow-x-auto">
         <div className="max-h-[400px] overflow-y-auto">
           <Table<User>
             columns={columns}
-            dataSource={users}
+            dataSource={filteredUsers}
             rowKey="id"
             loading={loading}
           />

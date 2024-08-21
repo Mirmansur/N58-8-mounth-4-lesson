@@ -11,7 +11,7 @@ export const useProductStore = create((set) => ({
       loading: true,
     }));
     try {
-      const res = await axios.get("http://localhost:4000/products");
+      const res = await axios.get("http://localhost:3000/products");
       const data = await res.data;
       set(() => ({
         loading: false,
